@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- =============== AOS Animation ====================================== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="menu-profile">
+            <header>
+                <nav>
+                    <!-- ======================= Dark light ==================================== -->
+                    <button class="dark-light-btn bg-gradient">
+                        <i class="fa-regular fa-sun"></i>
+                    </button>
+
+                    <!-- ======================= Menu ==================================== -->
+                    <ul>
+                        <li><a href="#about-us" data-label="About" class="active"><i
+                                    class="fa-solid fa-address-book"></i></a></li>
+                        <li><a href="#skills" data-label="Skills"><i class="fa-solid fa-layer-group"></i></a></li>
+                        <li><a href="#services" data-label="Services"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+                        </li>
+                        <li><a href="#pricing" data-label="Pricing"><i class="fa-solid fa-dollar-sign"></i></a></li>
+                        <li><a href="#projects" data-label="Projects"><i class="fa-solid fa-briefcase"></i></a></li>
+                        <li><a href="#edu-work" data-label="Resume"><i class="fa-solid fa-file-lines"></i></a></li>
+                        <li><a href="#testmonials" data-label="Testimonials"><i
+                                    class="fa-solid fa-comment-dots"></i></a></li>
+                        <li><a href="#contact" data-label="Contact"><i class="fa-solid fa-paper-plane"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="profile-container">
+                <div class="user-profile bg-gradient">
+                    <div class="user-profile-container">
+                        <div class="user-profile-img">
+                            <img src="images/profile_me.jpg" alt="Math Fazis">
+
+                        </div>
+                        <div class="user-profile-text">
+                            <span>Web developer</span>
+                            <h1>Math Fazis</h1>
+
+                            <div class="profile-social-container">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i>
+                                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====================== Btn ==================== -->
+                    <button class="user-profile-btns bg-gradient">
+                        <a href="images/Fazis.pdf" download target="_blank">Download CV</a>
+                        <a href="#">Contact Me</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="all-content">
+            <!-- =============================== About us ==================================== -->
+            <section id="about-us" class="section-container">
+                <h3>Hello, I'm <span id="role">Web developer</span></h3>
+                <h1>Junior web developer and <span>Data scientist</span> Based in Phnom Penh, Cambodia</h1>
+                <p>Have worked in a variety of position, including key developer, solution designer, and data architect.
+                    Strong engineering background combined
+                    with closely working with the business customers.
+                </p>
+                <div class="project-container-about">
+                    <div class="project-container-box">
+                        <span>96</span>
+                        <strong>Completed Projects</strong>
+                    </div>
+                    <div class="project-container-box">
+                        <span>3</span>
+                        <strong>Year of Experience</strong>
+                    </div>
+                    <div class="project-container-box">
+                        <span>10+</span>
+                        <strong>Award Winning</strong>
+                    </div>
+                </div>
+            </section>
+            <!-- =============================== Skills ======================================= -->
+            <section id="skills" class="section-container">
+                <div class="section-heading" data-aos="fade-up">
+                    <span><i class="fa-solid fa-layer-group"></i>Technical Skills</span>
+                    <h3>Technologies</h3>
+                </div>
+
+                <div class="skills-box-container">
+                    <div class="skills-box bg-gradient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML & CSS</span>
+                        </div>
+                        <div class="skill-box-bar">
+                            <span style="width: 85%;"></span>
+                        </div>
+                        <span class="skill-box-percentage">85%</span>
+                    </div>
+                    <div class="skills-box bg-gradient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                        <div class="skill-box-bar">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <span class="skill-box-percentage">70%</span>
+                    </div>
+                    <div class="skills-box bg-gradient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-react"></i>
+                            <span>REACT JS</span>
+                        </div>
+                        <div class="skill-box-bar">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <span class="skill-box-percentage">70%</span>
+                    </div>
+                    <div class="skills-box bg-gradient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <span>BOOTSTRAP</span>
+                        </div>
+                        <div class="skill-box-bar">
+                            <span style="width: 85%;"></span>
+                        </div>
+                        <span class="skill-box-percentage">85%</span>
+                    </div>
+                    <div class="skills-box bg-gradient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MySQl</span>
+                        </div>
+                        <div class="skill-box-bar">
+                            <span style="width: 85%;"></span>
+                        </div>
+                        <span class="skill-box-percentage">85%</span>
+                    </div>
+                    <div class="skills-box bg-gradient" data-aos="fade-up">
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-php"></i>
+                            <span>PHP & LARAVEL</span>
+                        </div>
+                        <div class="skill-box-bar">
+                            <span style="width: 85%;"></span>
+                        </div>
+                        <span class="skill-box-percentage">85%</span>
+                    </div>
+                </div>
+
+                <p class="service-massages">Contact Us For Need Any Help and Services <a href="#">Let's get Started</a>
+                </p>
+            </section>
+            <!-- =============================== service ====================================== -->
+            <section id="services" class="section-container">
+                <div class="section-heading" data-aos="fade-up">
+                    <span><i class="fa-solid fa-screwdriver-wrench"></i>Our Services</span>
+                    <h3>What serivces I provide?</h3>
+                </div>
+
+                <div class="services-container">
+                    <div class="services-box bg-gradient" data-aos="fade-up">
+                        <div class="services-box-heading">
+                            <div class="services-box-icon">
+                                <img src="images/graphic.png" alt="graphic">
+                            </div>
+
+                            <div class="service-box-heading-text">
+                                <span>2 developers</span>
+                                <strong>Graphic Designer</strong>
+                            </div>
+                        </div>
+                        <p class="services-box-details">Data modals in SAP PowerDesigner ETL process design &
+                            implementation: Apache Airflow / AWS / Python.</p>
+                        <a href="#">Get Started</a>
+                    </div>
+                    <div class="services-box bg-gradient" data-aos="fade-up">
+                        <div class="services-box-heading">
+                            <div class="services-box-icon">
+                                <img src="images/web.png" alt="graphic">
+                            </div>
+
+                            <div class="service-box-heading-text">
+                                <span>4 developers</span>
+                                <strong>Web deleveloper</strong>
+                            </div>
+                        </div>
+                        <p class="services-box-details">Data modals in SAP PowerDesigner ETL process design &
+                            implementation: Apache Airflow / AWS / Python.</p>
+                        <a href="#">Get Started</a>
+                    </div>
+                    <div class="services-box bg-gradient" data-aos="fade-up">
+                        <div class="services-box-heading">
+                            <div class="services-box-icon">
+                                <img src="images/tech.png" alt="tech">
+                            </div>
+
+                            <div class="service-box-heading-text">
+                                <span>2 developers</span>
+                                <strong>Technical Preparation</strong>
+                            </div>
+                        </div>
+                        <p class="services-box-details">Data modals in SAP PowerDesigner ETL process design &
+                            implementation: Apache Airflow / AWS / Python.</p>
+                        <a href="#">Get Started</a>
+                    </div>
+                    <div class="services-box bg-gradient" data-aos="fade-up">
+                        <div class="services-box-heading">
+                            <div class="services-box-icon">
+                                <img src="images/devops.png" alt="graphic">
+                            </div>
+
+                            <div class="service-box-heading-text">
+                                <span>2 developers</span>
+                                <strong>DevOps</strong>
+                            </div>
+                        </div>
+                        <p class="services-box-details">Data modals in SAP PowerDesigner ETL process design &
+                            implementation: Apache Airflow / AWS / Python.</p>
+                        <a href="#">Get Started</a>
+                    </div>
+                </div>
+
+                <p class="service-massages">Contact Us For Need Any Help and Services <a href="#">Let's get Started</a>
+                </p>
+            </section>
+
+            <!-- =============================== Pricing ====================================== -->
+            <section id="pricing" class="section-container">
+                <div class="section-heading" data-aos="fade-up">
+                    <span><i class="fa-solid fa-dollar-sign"></i>Pricing</span>
+                    <h3>Amazing Pricing For your Projects</h3>
+                </div>
+
+                <div class="plan-container">
+                    <div class="plan-box bg-gradient" data-aos="fade-up">
+                        <span class="plan-name">Basic</span>
+                        <span class="price">$400</span>
+                        <a href="#">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in PCCs and demos</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipeline</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="plan-box bg-gradient" data-aos="fade-up">
+                        <span class="plan-name">Pro</span>
+                        <span class="price">$800</span>
+                        <a href="#">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in PCCs and demos</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipeline</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipeline</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipeline</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="plan-box bg-gradient" data-aos="fade-up">
+                        <span class="plan-name">Premium</span>
+                        <span class="price">$1400</span>
+                        <a href="#">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in PCCs and demos</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipeline</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="plan-box bg-gradient" data-aos="fade-up">
+                        <span class="plan-name">Ultimate</span>
+                        <span class="price">$3000</span>
+                        <a href="#">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in PCCs and demos</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipeline</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =============================== Project ====================================== -->
+            <section id="projects" class="section-container">
+                <div class="section-heading" data-aos="fade-up">
+                    <span><i class="fa-solid fa-briefcase"></i>Projects</span>
+                    <h3>Explore portfolio By Technology</h3>
+                </div>
+
+                <!-- =============== Filter ========================= -->
+                <div class="project-list">
+                    <li class="active" data-filter="all">All</li>
+                    <li data-filter="ReactJs">ReactJs</li>
+                    <li data-filter="Figma">Figma</li>
+                </div>
+
+                <!-- =============== Container ======================= -->
+                <div class="project-container">
+                    <!-- =========== Project Box ================ -->
+                    <a href="#" class="project-box" data-aos="fade-up" data-category="ReactJs">
+                        <!-- ================ Img project ================= -->
+                        <div class="project-box-img">
+                            <img src="images/p2.jpg" alt="project">
+                        </div>
+
+                        <!-- ================ Text Content ================ -->
+                        <div class="project-box-text-container">
+                            <div class="project-box-text">
+                                <strong>Business Company Website</strong>
+                                <span>ReactJs</span>
+                            </div>
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="project-box" data-aos="fade-up" data-category="Figma">
+                        <!-- ================ Img project ================= -->
+                        <div class="project-box-img">
+                            <img src="images/p3.jpg" alt="project">
+                        </div>
+
+                        <!-- ================ Text Content ================ -->
+                        <div class="project-box-text-container">
+                            <div class="project-box-text">
+                                <strong>Figma App Design</strong>
+                                <span>Figma</span>
+                            </div>
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="project-box" data-aos="fade-up" data-category="ReactJs">
+                        <!-- ================ Img project ================= -->
+                        <div class="project-box-img">
+                            <img src="images/p1.jpg" alt="project">
+                        </div>
+
+                        <!-- ================ Text Content ================ -->
+                        <div class="project-box-text-container">
+                            <div class="project-box-text">
+                                <strong>Dashboard of the Website</strong>
+                                <span>ReactJs</span>
+                            </div>
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- =============================== Work ========================================= -->
+            <section id="edu-work" class="section-container">
+                <div class="section-heading" data-aos="fade-up">
+                    <span><i class="fa-regular fa-file-lines"></i>Resume</span>
+                    <h3>Work Experience & Education</h3>
+                </div>
+
+                <!-- =============== Container Education ========================== -->
+                <div class="edu-work-container">
+                    <div class="edu-container">
+                        <span class="edu-work-label">
+                            <i class="fa-solid fa-building-columns"></i> Education
+                        </span>
+
+                        <div class="edu-work-box-container">
+                            <div class="edu-work-box" data-aos="fade-up">
+                                <span class="edu-work-year">2018 - 2020</span>
+                                <strong>Master of Computer Science</strong>
+                                <span class="edu-work-location">University of California, Berkeley</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus inventore</p>
+                            </div>
+                            <div class="edu-work-box" data-aos="fade-up">
+                                <span class="edu-work-year">2018 - 2020</span>
+                                <strong>Master of Computer Science</strong>
+                                <span class="edu-work-location">University of California, Berkeley</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus inventore</p>
+                            </div>
+                            <div class="edu-work-box" data-aos="fade-up">
+                                <span class="edu-work-year">2018 - 2020</span>
+                                <strong>Master of Computer Science</strong>
+                                <span class="edu-work-location">University of California, Berkeley</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus inventore</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-container">
+                        <span class="edu-work-label"><i class="fa-solid fa-briefcase"></i> Work</span>
+                        <div class="edu-work-box-container">
+                            <div class="edu-work-box" data-aos="fade-up">
+                                <span class="edu-work-year">2018 - 2020</span>
+                                <strong>Master of Computer Science</strong>
+                                <span class="edu-work-location">University of California, Berkeley</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus inventore</p>
+                            </div>
+                            <div class="edu-work-box" data-aos="fade-up">
+                                <span class="edu-work-year">2018 - 2020</span>
+                                <strong>Master of Computer Science</strong>
+                                <span class="edu-work-location">University of California, Berkeley</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus inventore</p>
+                            </div>
+                            <div class="edu-work-box" data-aos="fade-up">
+                                <span class="edu-work-year">2018 - 2020</span>
+                                <strong>Master of Computer Science</strong>
+                                <span class="edu-work-location">University of California, Berkeley</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus inventore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =============================== Client ======================================= -->
+            <section id="testmonials" class="section-container">
+                <div class="section-heading" data-aos="fade-up">
+                    <span><i class="fa-solid fa-comment-dots"></i>Testimonials</span>
+                    <h3>Here's what my client Say</h3>
+                </div>
+
+                <!-- ================= Container Client ======================================== -->
+                <div class="testmonials-container">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testmonials-box bg-gradient">
+                                    <div class="testmonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error modi quia autem
+                                        dolore.
+                                        Laborum vitae officiis facilis accusamus odio sit?</p>
+                                    <div class="client-profile">
+                                        <div class="client-profile-box">
+                                            <div class="client-profile-img">
+                                                <img src="images/c1.jpg" alt="client" />
+                                            </div>
+                                        </div>
+                                        <div class="client-profile-text">
+                                            <strong>Oum piseth</strong>
+                                            <span>CEO, ABC Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testmonials-box bg-gradient">
+                                    <div class="testmonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error modi quia autem
+                                        dolore.
+                                        Laborum vitae officiis facilis accusamus odio sit?</p>
+                                    <div class="client-profile">
+                                        <div class="client-profile-box">
+                                            <div class="client-profile-img">
+                                                <img src="images/c1.jpg" alt="client" />
+                                            </div>
+                                        </div>
+                                        <div class="client-profile-text">
+                                            <strong>Oum piseth</strong>
+                                            <span>CEO, ABC Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testmonials-box bg-gradient">
+                                    <div class="testmonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error modi quia autem
+                                        dolore.
+                                        Laborum vitae officiis facilis accusamus odio sit?</p>
+                                    <div class="client-profile">
+                                        <div class="client-profile-box">
+                                            <div class="client-profile-img">
+                                                <img src="images/c1.jpg" alt="client" />
+                                            </div>
+                                        </div>
+                                        <div class="client-profile-text">
+                                            <strong>Oum piseth</strong>
+                                            <span>CEO, ABC Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testmonials-box bg-gradient">
+                                    <div class="testmonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error modi quia autem
+                                        dolore.
+                                        Laborum vitae officiis facilis accusamus odio sit?</p>
+                                    <div class="client-profile">
+                                        <div class="client-profile-box">
+                                            <div class="client-profile-img">
+                                                <img src="images/c1.jpg" alt="client" />
+                                            </div>
+                                        </div>
+                                        <div class="client-profile-text">
+                                            <strong>Oum piseth</strong>
+                                            <span>CEO, ABC Company</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <!-- ================= Message ================================================= -->
+                <p class="testmonials-message" data-aos="fade-up">More than <span> 200+ Companies</span> trusted us worldwide</p>
+
+                <!-- ================= Client Logo ============================================= -->
+                <div class="client-logos" data-aos="fade-up">
+                    <img src="images/b1.png" alt="Logo" />
+                    <img src="images/b2.png" alt="Logo" />
+                    <img src="images/b3.png" alt="Logo" />
+                    <img src="images/b4.png" alt="Logo" />
+                    <img src="images/b1.png" alt="Logo" />
+                    <img src="images/b2.png" alt="Logo" />
+                </div>
+            </section>
+
+            <!-- =============================== Contact ====================================== -->
+            <section id="contact" class="section-container">
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-paper-plane"></i>Contact</span>
+                    <h3>Let's Get In Touch!</h3>
+                </div>
+
+                <!-- =================== Contact Container =================================== -->
+                <div class="contact-box-container">
+                    <div class="contact-box bg-gradient" data-aos="fade-up">
+                        <div class="contact-box-icon">
+                            <i class="fa-solid fa-address-book"></i>
+                            <strong>Phone</strong>
+                        </div>
+                        <span>+855 123 456 78 90</span>
+                    </div>
+                    <div class="contact-box bg-gradient" data-aos="fade-up">
+                        <div class="contact-box-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                            <strong>Address</strong>
+                        </div>
+                        <span>myemail@gmail.com</span>
+                    </div>
+                    <div class="contact-box bg-gradient contact-box-location" data-aos="fade-up">
+                        <div class="contact-box-icon">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <strong>Location</strong>
+                        </div>
+                        <span>Cambodia, Phnom Penh</span>
+                    </div>
+                </div>
+
+                <!-- =================== Contact Map ========================================= -->
+                <div class="contact-map" data-aos="fade-up">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62528.597866939825!2d104.84759398312362!3d11.620686501284657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310953b549725f55%3A0xc09fa059ffc26d49!2z4Z6B4Z6O4Z-S4Z6M4oCL4Z6r4Z6f4Z-S4Z6f4Z644Z6A4Z-C4Z6c4oCLLCDhnpfhn5LhnpPhn4bhnpbhn4Hhnok!5e0!3m2!1skm!2skh!4v1743820820915!5m2!1skm!2skh"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+    <!-- ========================== AOS Animation ============================================ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
